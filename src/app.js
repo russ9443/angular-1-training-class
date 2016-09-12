@@ -4,7 +4,7 @@ angular
 
 function AppController($scope) {
 
-  $scope.title = 'List Page';
+  $scope.title = 'Heroes';
   
   $scope.heroes = [
     {
@@ -15,5 +15,21 @@ function AppController($scope) {
       affiliations: ['Jedi', 'Rebels'],
       light: true
     },
+    {
+      id: 1,
+      name: 'Darth Vader',
+      imageUrl: 'images/vader.png',
+      power: 9000,
+      affiliations: ['Jedi', 'Rebels'],
+      light: false
+    },
+    {
+      id: 2,
+      name: 'R2D2',
+      imageUrl: 'images/R2D2.png',
+      power: 9000,
+      affiliations: ['Jedi', 'Rebels'],
+      light: true
+    }
   ]
 }
